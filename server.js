@@ -10,7 +10,7 @@ const orderRoutes = require('./routes/orderRoutes');
 
 require('dotenv').config();
 const app = express();
-const PORT = process.env.PORT || 3005;
+const PORT = process.env.PORT || 3010;
 
 // Middleware
 app.use(express.json());
